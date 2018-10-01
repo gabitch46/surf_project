@@ -1,6 +1,6 @@
 #!/bin/bash
-#django-admin startproject surf_project
+#django-admin startproject django_site
 export PATH="~/anaconda3/bin:$PATH"
 source activate projet_surf
-cd surf_project/
+cd django_site/
 python manage.py runserver
